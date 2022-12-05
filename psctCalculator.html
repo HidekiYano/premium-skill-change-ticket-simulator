@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Premium Skill Change Ticket Simulator</title>
+    <script src="../jQuery/jquery.js"></script>
+    <link rel="stylesheet" href="psctCalculator.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+    </style>
+</head>
+<body>
+    <h1>Premium Skill Change Ticket Simulator</h1>
+    <div id="line"></div>
+    <div id="card-type">
+        <p>Card type:</p>
+        <div id="card-type-1">
+            <input type="radio" id="legend" name="is-legend" value="yes">
+            <label for="legend">Legend</label>
+        </div>
+        <div id="card-type-2">
+            <input type="radio" id="not-legend" name="is-legend" value="no">
+            <label for="not-legend">Non Legend</label>
+        </div>
+    </div>
+    <div id="player-type">
+        <p>Player type:</p>
+        <div id="player-type-1">
+            <input type="radio" id="pitcher" name="player-type" value="pitcher">
+            <label for="pitcher">Pitcher</label>
+        </div>
+        <div id="player-type-2">
+            <input type="radio" id="batter" name="player-type" value="batter">
+            <label for="batter">Batter</label>
+        </div>
+    </div>
+    <div id="skills">
+        <div id="skill-1" class="blank"></div>
+        <div id="skill-2" class="blank"></div>
+        <div id="skill-3" class="blank"></div>
+    </div>
+    <button type="submit" id="change-skills">Change Skills</button>
+    <script src="psctCalculator.js"></script>
+</body>
+</html>
