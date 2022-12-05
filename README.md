@@ -1,2 +1,2 @@
 # premium-skill-change-ticket-simulator
-Premium Skill Change Ticket Simulator
+Simulates a Premium Skill Change Ticket, tool for the mobile game MLB 9Innings.
